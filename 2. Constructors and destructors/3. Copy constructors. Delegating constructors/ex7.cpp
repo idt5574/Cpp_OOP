@@ -3,7 +3,7 @@
 
 class Complex
 {
-    short re{0}, im{0};
+    short re, im;
 
 public:
 
