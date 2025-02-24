@@ -19,7 +19,7 @@ public:
 				lst[count++] = lst[i];
 		}
 		
-		return count;
+		return count; 
 	}
 
 };
