@@ -92,14 +92,8 @@ int main(void)
         new Animals()
     };
 
-    Animals* lf_lst[] {
-        (Animals*)life[3], 
+    Animals* lf_lst1[] {
         (Animals*)life[4],
-        (Animals*)life[5],
-        (Animals*)life[6],
-        (Animals*)life[7],
-        (Animals*)life[8],
-        (Animals*)life[9],
         (Animals*)life[10],
         (Animals*)life[11],
     };
