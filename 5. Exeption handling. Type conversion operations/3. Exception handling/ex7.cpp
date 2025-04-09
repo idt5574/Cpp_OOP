@@ -35,7 +35,7 @@ public:
     }
 
     friend Wallet operator + (const Wallet& left, const Wallet& right);
-    Wallet operator +=(const Wallet& right)
+    Wallet& operator +=(const Wallet& right)
     { 
         validate_volume(this->volume + right.volume);
         this->volume += right.volume;
@@ -43,7 +43,7 @@ public:
         return *this;
     }
 
-    Wallet operator -=(const Wallet& right)
+    Wallet& operator -=(const Wallet& right)
     { 
         validate_volume(this->volume - right.volume);
         this->volume -= right.volume;
