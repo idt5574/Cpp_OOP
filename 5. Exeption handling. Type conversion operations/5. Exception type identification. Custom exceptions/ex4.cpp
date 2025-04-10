@@ -21,9 +21,9 @@ int main()
 {
     try
     {
-        ArrayException("Main exception");
+        throw ArrayException("Main exception");
     }
-    catch(const std::exception& e)
+    catch(const ArrayException& e)
     {
         std::cout << e.what() << std::endl;
     }
