@@ -72,6 +72,8 @@ T calc_data(T a, T b, ar_operation type = ar_sum)
     case ar_mul:
         return a * b;
     }
+
+    return a;
 }
 
 int main()
